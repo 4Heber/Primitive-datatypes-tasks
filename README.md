@@ -56,42 +56,62 @@
 > 
 > ![image](https://user-images.githubusercontent.com/77643882/160617856-cf6c3e60-3b42-419a-8400-3157df4a46a4.png)
 
->
->
->
->
->
->
->
->
->
->
->
->
->
->
->
->
->
->
->
->
->
->
->
+#### Task 4 - Populate the text file you created in task 3 with all three datatypes we've covered: 'Boolean','String' and 'Int'.
 
+> - Command `Add-Content -Path .\Heber\PowerShell\Workshop1\%USERNAME%\TestFile.txt -Value True`
+> - Command `Get-Content -Path .\Heber\PowerShell\Workshop1\%USERNAME%\TestFile.txt`
+>
+> - Command `Add-Content -Path .\Heber\PowerShell\Workshop1\%USERNAME%\TestFile.txt -Value "Hello"`
+> - Command `Get-Content -Path .\Heber\PowerShell\Workshop1\%USERNAME%\TestFile.txt`
+>
+> - Command `Add-Content -Path .\Heber\PowerShell\Workshop1\%USERNAME%\TestFile.txt -Value 42`
+> - Command `Get-Content -Path .\Heber\PowerShell\Workshop1\%USERNAME%\TestFile.txt`
+>
+> ![image](https://user-images.githubusercontent.com/77643882/160619791-21f88966-bf26-40ad-bfcd-ed4aa263317e.png)
 
+#### Task 5 - Read from the text file and use 'Get-Member' to find the datatype returned.
 
+> - Command `Get-Content -Path .\Heber\PowerShell\Workshop1\%USERNAME%\TestFile.txt | Get-Member`
+>
+> ![image](https://user-images.githubusercontent.com/77643882/160622360-653bf55f-1d20-4d46-8fd0-683d9effce86.png)
 
+#### Task 6 - Overwrite all data within the text file that you created in task 3.
 
+> - Command `Set-Content -Path .\Heber\PowerShell\Workshop1\%USERNAME%\TestFile.txt -Value "Follow the white rabbit"`
+> - Command `Get-Content -Path .\Heber\PowerShell\Workshop1\%USERNAME%\TestFile.txt`
+>
+> ![image](https://user-images.githubusercontent.com/77643882/160623302-1d395a44-5f90-400f-a748-37c5b2b12d2c.png)
 
+#### Task 7 - Format the data returned by a cmdlet into a list.
 
+> - Command `Get-Service | Format-List`
+>
+> ![image](https://user-images.githubusercontent.com/77643882/160624207-3f7c27f6-beff-4970-aa10-9f20a4e6985a.png)
 
+#### Task 8 - Pipe 'Get-Command' into 'Out-GridView'.
 
+> - Command `Get-Command | Out-GridView`
+>
+> ![image](https://user-images.githubusercontent.com/77643882/160624764-8242461b-0e4e-4e8b-bcbf-34bafacf5a22.png)
 
+#### Task 9 - Pipe the 5 cmdlets you discovered in task 1 into 'Out-GridView'.
 
+> - Command `Get-Help | Out-GridView`
+> 
+> ![image](https://user-images.githubusercontent.com/77643882/160626001-eb7ce36a-3e05-4218-ba9f-d8456829519a.png)
+>
+> - Command `Get-Alias | Out-GridView`
+>
+> ![image](https://user-images.githubusercontent.com/77643882/160626535-f2c98a24-24e5-4c69-bc8a-bd4db6d88cc9.png)
+>
+> - Command `Get-ControlPanelItem | Out-GridView`
+>
+> ![image](https://user-images.githubusercontent.com/77643882/160626964-c974cf42-a9a2-4e00-b727-40800bf92d53.png)
 
-
+>
+>
+>
+>
 
 
 

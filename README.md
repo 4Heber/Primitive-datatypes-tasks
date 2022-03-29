@@ -108,10 +108,14 @@
 >
 > ![image](https://user-images.githubusercontent.com/77643882/160626964-c974cf42-a9a2-4e00-b727-40800bf92d53.png)
 
->
->
->
->
+#### Task 10 - Find the official PowerShell documentation library from Microsoft.
+[Official PowerShell documentation](https://docs.microsoft.com/es-ES/powershell/)
+
+![image](https://user-images.githubusercontent.com/77643882/160628881-eee80c9e-b52c-4e6d-94b6-eac428947517.png)
+
+
+
+
 
 
 
